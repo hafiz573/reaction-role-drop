@@ -13,6 +13,13 @@ client.login(config.BOT_TOKEN);
 //notifys console that bot is up and running!
 client.on('ready', () => {
     console.log(`${client.user.tag} is online.`)
+    client.user.setPresence({
+    activity: {
+      type: "PLAYING",
+      name: "code by HZR_H3RY"
+    },
+    status: "dnd"
+  });
 });
 
 // handle giveaway buttons
