@@ -7,7 +7,7 @@ const client = new Discord.Client();
 require('discord-buttons')(client);
 const fs = require('fs');
 // login to the bot
-client.login(config.BOT_TOKEN);
+client.login(process.env.Token);
 
 
 //notifys console that bot is up and running!
