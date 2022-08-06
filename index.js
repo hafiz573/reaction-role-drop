@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const config = require('./config.json')
 // require Nuggies package
 const Nuggies = require('nuggies');
 const client = new Discord.Client();
